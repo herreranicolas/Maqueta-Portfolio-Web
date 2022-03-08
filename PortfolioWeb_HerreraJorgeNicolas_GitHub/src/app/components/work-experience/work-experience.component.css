@@ -1,0 +1,11 @@
+h3,
+h4,
+h5,
+p {
+  color: white;
+}
+
+section {
+  background-color: #051c35;
+  border-radius: 1.5rem;
+}

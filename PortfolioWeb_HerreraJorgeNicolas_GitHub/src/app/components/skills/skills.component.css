@@ -1,0 +1,60 @@
+section {
+  border-radius: 1.5rem;
+  background-color: #051c35;
+  color: white;
+}
+
+.skill {
+  height: 10rem;
+  /* background-color: blue; */
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.outer {
+  height: 10rem;
+  width: 10rem;
+  border-radius: 50%;
+  padding: 1rem;
+  background-color: white;
+}
+
+.inner {
+  height: 8rem;
+  width: 8rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+  color: #051c35;
+}
+
+#number {
+  font-weight: 600;
+  margin-top: 1rem;
+}
+
+circle {
+  fill: none;
+  stroke: #051c35;
+  stroke-width: 1rem;
+  stroke-dasharray: 472;
+  stroke-dashoffset: 472;
+  animation: anim 2s linear forwards;
+}
+
+svg {
+  position: absolute;
+  top: 0;
+}
+
+@keyframes anim {
+  100% {
+    stroke-dashoffset: 165;
+  }
+}

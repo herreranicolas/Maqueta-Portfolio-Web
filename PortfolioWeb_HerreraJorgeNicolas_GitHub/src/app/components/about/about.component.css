@@ -1,0 +1,47 @@
+img {
+  position: relative;
+  height: 10em;
+  float: left;
+  margin: -7rem 3.5rem;
+  border: 2px solid white;
+}
+
+h3 {
+  margin-top: 3.4rem;
+}
+
+h3,
+h4,
+p {
+  color: #051c35;
+}
+
+@media (max-width: 767px) {
+  img {
+    margin: -7rem 7.5rem;
+  }
+}
+
+@media (max-width: 500px) {
+  img {
+    margin: -7rem 10rem;
+  }
+}
+
+@media (max-width: 426px) {
+  img {
+    margin: -7rem 7.75rem;
+  }
+}
+
+@media (max-width: 376px) {
+  img {
+    margin: -7rem 6.5rem;
+  }
+}
+
+@media (max-width: 321px) {
+  img {
+    margin: -7rem 4.25rem;
+  }
+}

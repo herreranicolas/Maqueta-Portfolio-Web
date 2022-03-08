@@ -1,0 +1,13 @@
+.container-fluid {
+  background-color: #051c35;
+}
+
+.top-border {
+  border-top-right-radius: 1.5em;
+  border-top-left-radius: 1.5em;
+}
+
+li > *:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.5rem;
+}
